@@ -49,8 +49,8 @@ document.onkeydown = function (e) {
 
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
-    document.title = "Experience | Portfolio Arsh Bhaita";
-    $("#favicon").attr("href", "/assests/images/favicon.png");
+    document.title = "Experience | Portfolio Shivesh Raj";
+    $("#favicon").attr("href", "");
   } else {
     document.title = "Come Back To Portfolio";
   }
