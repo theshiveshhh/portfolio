@@ -43,8 +43,8 @@ $(document).ready(function () {
 
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
-    document.title = "Portfolio | Arsh Bhatia";
-    $("#favicon").attr("href", "assests/images/Arsh Bhatia.png");
+    document.title = "Portfolio | Shivesh Raj";
+    $("#favicon").attr("href", "assests\Shivesh profile photo.jpeg");
   } else {
     document.title = "Come Back To Portfolio";
   }
